@@ -3,7 +3,7 @@ function Calcular(){
     let Q = document.getElementById("deltaCarga").value;
     let T = document.getElementById("deltaTempo").value;
 
-    let txt = document.getElementById("txtReultado");
+    let txt = document.getElementById("txtResultado");
 
     if (i,T,!Q){
         let resultado = T * i;
