@@ -18,7 +18,7 @@ function Calcular(){
         else if (i==0 && q==0 && t==0){return "Não á números para efetuar o calculo!!!"}
         
         else if (i && q && t){return "Não é possivel efetuar o calculo <br/> com todos os campos preenchidos!!!"}
-    }
+        }
 
     txt.innerHTML = `${func(iCorrente,qCarga,tempo)}`;
 
