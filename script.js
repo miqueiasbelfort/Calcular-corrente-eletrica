@@ -9,11 +9,11 @@ function Calcular(){
     //Novo código utilizando function
 
     let func = function (i=0,q=0,t=0){
-        if(i && q && t==0){return q/i}
+        if(i && q && t==0){return q/i + " Segundos (S)"}
 
-        else if (i && q==0 && t){return t*i} 
+        else if (i && q==0 && t){return t*i + " Coulombs (C)"} 
 
-        else if (i==0 && q && t){return q/t}
+        else if (i==0 && q && t){return q/t + " Ampéres (A)"}
 
         else if (i==0 && q==0 && t==0){return "Não á números para efetuar o calculo!!!"}
         
